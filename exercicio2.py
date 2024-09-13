@@ -1,6 +1,6 @@
-mat1 = int(input("QUAL A MATRICULA: "))
+mat1 = int(input("QUAL A MATRÍCULA: "))
 age = int(input("QUAL A IDADE: "))
-mat2 = int(input("QUAL A MATRICULA DA OUTRA: "))
+mat2 = int(input("QUAL A MATRÍCULA DA OUTRA: "))
 age2 = int(input("QUAL A IDADE DA OUTRA: "))
 
 if age > age2:
