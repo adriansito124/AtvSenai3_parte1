@@ -11,20 +11,20 @@ int main(){
 	
 	float valorcalculoIR; // Dequech
 	
-	printf("QUAL SEU CÓDIGO:\n");
+	printf("QUAL SEU Cï¿½DIGO:\n");
 	fflush(stdin);
 	scanf("%d",&cod);
 	
 while(cod > 0){
 	func++;
-	printf("QUANTOS DEPENDENTES VOCÊ TEM::\n");
+	printf("QUANTOS DEPENDENTES VOCï¿½ TEM::\n");
 	fflush(stdin);
 	scanf("%d",&qta_dep);
 	printf("QUAL SUA RENDA MENSAL:\n");
 	fflush(stdin);
 	scanf("%f",&rendamensal);
 	
-	printf("\nA renda Mensal Informada é de: R$ %.2f",rendamensal);
+	printf("\nA renda Mensal Informada ï¿½ de: R$ %.2f",rendamensal);
 	
 	if(rendamensal <= 1399.12){
 		valorinss = rendamensal*0.08;
@@ -56,7 +56,7 @@ while(cod > 0){
 	if(valorcalculoIR <= 1903.98){
 		valorfinal = valorfinalinss;
 		printf("\nValor do IR: R$ 0,0 .");
-		printf("\nSalário liquido sem dedução por dependente: R$ %.2f",valorfinal);
+		printf("\nSalï¿½rio liquido sem deduï¿½ï¿½o por dependente: R$ %.2f",valorfinal);
 	}
 	else{
 		if(valorcalculoIR >= 1903.99 && valorcalculoIR <=2826.65){
@@ -64,7 +64,7 @@ while(cod > 0){
 			valorimposto = (valorcalculoIR*0.075) - 142.80;
 			valorfinal = valorfinalinss - valorimposto;
 			printf("\nValor do IR mensal: R$ %.2f .",valorimposto);
-			printf("\nSalário liquido sem dedução por dependente: R$ %.2f",valorfinal);
+			printf("\nSalï¿½rio liquido sem deduï¿½ï¿½o por dependente: R$ %.2f",valorfinal);
 		}
 		else{
 			if(valorcalculoIR >= 2826.66 && valorcalculoIR <= 3751.05){
@@ -72,7 +72,7 @@ while(cod > 0){
 				valorimposto = (valorcalculoIR*0.15) - 354.80;;
 				valorfinal = valorfinalinss - valorimposto;
 				printf("\nValor do IR mensal: R$ %.2f .",valorimposto);
-				printf("\nSalário liquido sem dedução por dependente: R$ %.2f",valorfinal);
+				printf("\nSalï¿½rio liquido sem deduï¿½ï¿½o por dependente: R$ %.2f",valorfinal);
 			}
 			else{
 				if(valorcalculoIR >= 3751.06 && valorcalculoIR <= 4664.68){
@@ -80,7 +80,7 @@ while(cod > 0){
 					valorimposto = (valorcalculoIR*0.225) - 636.13;
 					valorfinal = valorfinalinss - valorimposto;
 					printf("\nValor do IR mensal: R$ %.2f .",valorimposto);
-					printf("\nSalário liquido sem dedução por dependente: R$ %.2f",valorfinal);
+					printf("\nSalï¿½rio liquido sem deduï¿½ï¿½o por dependente: R$ %.2f",valorfinal);
 				}
 				else{
 					if(valorcalculoIR > 4664.68){
@@ -88,7 +88,7 @@ while(cod > 0){
 						valorimposto = (valorcalculoIR*0.275) - 869.36;
 						valorfinal = valorfinalinss - valorimposto;
 						printf("\nValor do IR mensal: R$ %.2f .",valorimposto);
-						printf("\nSalário liquido sem dedução por dependente: R$ %.2f",valorfinal);
+						printf("\nSalï¿½rio liquido sem deduï¿½ï¿½o por dependente: R$ %.2f",valorfinal);
 					}
 				}
 			}
@@ -104,39 +104,39 @@ while(cod > 0){
 	switch(qta_dep){
 		case 1:
 			valorfinal = valorfinal - 189.59;	
-			printf("Valor do Salário liquido(com deduçãode dependentes): R$ %.2f  \n",valorfinal);
+			printf("Valor do Salï¿½rio liquido(com deduï¿½ï¿½ode dependentes): R$ %.2f  \n",valorfinal);
 		break;
 		
 		case 2:
 			valorfinal = valorfinal - (189.59*2);	
-			printf("Valor do Salário liquido(com deduçãode dependentes): R$ %.2f  \n",valorfinal);
+			printf("Valor do Salï¿½rio liquido(com deduï¿½ï¿½ode dependentes): R$ %.2f  \n",valorfinal);
 		break;
 		
 		case 3:
 			valorfinal = valorfinal - (189.59*3);	
-			printf("Valor do Salário liquido(com deduçãode dependentes): R$ %.2f  \n",valorfinal);
+			printf("Valor do Salï¿½rio liquido(com deduï¿½ï¿½ode dependentes): R$ %.2f  \n",valorfinal);
 		break;
 		
 		case 4:
 			valorfinal = valorfinal - (189.59*4);	
-			printf("Valor do Salário liquido(com deduçãode dependentes): R$ %.2f  \n",valorfinal);
+			printf("Valor do Salï¿½rio liquido(com deduï¿½ï¿½ode dependentes): R$ %.2f  \n",valorfinal);
 		break;
 		
 		case 5:
 			valorfinal = valorfinal - (189.59*5);	
-			printf("Valor do Salário liquido(com deduçãode dependentes): R$ %.2f  \n",valorfinal);
+			printf("Valor do Salï¿½rio liquido(com deduï¿½ï¿½ode dependentes): R$ %.2f  \n",valorfinal);
 		break;
 		
 		default:
-		printf("Não possui dependentes. \n");
+		printf("Nï¿½o possui dependentes. \n");
 	}
 
 */
 
-	printf("\n %dº funcionário calculado.",func);
+	printf("\n %dï¿½ funcionï¿½rio calculado.",func);
 	
 	printf("\n\n\n");
-	printf("QUAL SEU CÓDIGO:\n");
+	printf("QUAL SEU Cï¿½DIGO:\n");
 	fflush(stdin);
 	scanf("%d",&cod);
 
